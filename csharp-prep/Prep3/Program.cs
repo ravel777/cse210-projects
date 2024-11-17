@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        //Prep3
         Random randGen = new Random();
         int magicNumber = randGen.Next(1, 70);
 
