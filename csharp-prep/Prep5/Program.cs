@@ -3,12 +3,13 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    {
+    {   //Welcoming function
         DisplayWelcome();
         void DisplayWelcome() {
             Console.WriteLine("Dear guest, Welcome!");
         }
 
+    {   //UserName function
         PromptUserName();
         string PromptUserName() {
             Console.Write("Please! Enter your full name: ");
