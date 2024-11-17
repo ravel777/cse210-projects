@@ -1,14 +1,16 @@
 using System;
+using System.Collections.Generic;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter your firstName: ");
+        Console.Write("What is your first name? ");
         string fname = Console.ReadLine();
-        Console.WriteLine("Enter your lasttName: ");
+        Console.Write("What is your last name? ");
         string lname = Console.ReadLine();
+        Console.WriteLine();
+        Console.WriteLine($"Your name is {lname}, {fname} {lname}.");
 
-        Console.WriteLine($"Your full name is: {fname} {lname}");
     }
 }
