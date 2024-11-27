@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        //Comment
         Job info1 = new Job();
         info1._CompanyName = "Komput";
         info1._JobTitle = "Programmer";
